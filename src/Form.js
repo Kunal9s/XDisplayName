@@ -29,8 +29,7 @@ function Form() {
     <div>
       <form className="addlist" onSubmit={handleSubmit}>
         <h1>Full Name Display</h1>
-        <label>First Name: </label>
-        <input
+         First Name: <input
           type="text"
           name="first name"
           value={firstName}
@@ -38,8 +37,7 @@ function Form() {
           required
         />
         <br />
-        <label>Last Name: </label>
-        <input
+        Last Name: <input
           type="text"
           name="last name"
           value={lastName}
@@ -55,8 +53,7 @@ function Form() {
               return (
                 <div className="showDataStyles">
                   <span>Full Name: </span>
-                  <span>{currElem.firstName}</span>
-                  <span>{currElem.lastName}</span>
+                  <span>{currElem.firstName}</span> <span>{currElem.lastName}</span>
                 </div>
               )
           })
