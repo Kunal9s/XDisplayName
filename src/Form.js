@@ -22,8 +22,8 @@ function Form() {
 
     setAllEntry([...allEntry, newEntry]);
 
-    setFirstname("");
-    setLastname("");
+    // setFirstname("");
+    // setLastname("");
   };
   return (
     <div>
@@ -36,7 +36,7 @@ function Form() {
           onChange={handleFirstName}
           required
         />
-        <br />
+        <br/>
         Last Name: <input
           type="text"
           name="last name"
@@ -44,10 +44,10 @@ function Form() {
           onChange={handleLastName}
           required
         />
-        <br />
+        <br/>
         <button type="submit" className="addlist">Submit</button>
       </form>
-      <br />
+      <br/>
       <div>
         {
           allEntry.map((currElem) => {
