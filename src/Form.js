@@ -22,8 +22,8 @@ function Form() {
 
     setAllEntry([...allEntry, newEntry]);
 
-    setFirstname("");
-    setLastname("");
+    // setFirstname("");
+    // setLastname("");
   };
   return (
     <div>
