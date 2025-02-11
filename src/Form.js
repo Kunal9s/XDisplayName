@@ -29,21 +29,21 @@ function Form() {
     <div>
       <form className="addlist" onSubmit={handleSubmit}>
         <h1>Full Name Display</h1>
-         <div>First Name: <input
+         <p>First Name: <input
           type="text"
           name="first name"
           value={firstName}
           onChange={handleFirstName}
           required
-        /></div>
-        <div>
+        /></p>
+        <p>
         Last Name: <input
           type="text"
           name="last name"
           value={lastName}
           onChange={handleLastName}
           required
-        /></div>
+        /></p>
         <button type="submit" className="addlist">Submit</button>
       </form>
     
