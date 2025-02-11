@@ -2,17 +2,17 @@ import React from "react";
 import { useState } from "react";
 
 function Form() {
-  const [firstName, setFirstname] = useState();
-  const [lastName, setLastname] = useState();
+  const [firstName, setFirstName] = useState();
+  const [lastName, setLastName] = useState();
 
   const [allEntry, setAllEntry] = useState([]);
 
   const handleFirstName = (e) => {
-    setFirstname(e.target.value);
+    setFirstName(e.target.value);
   };
 
   const handleLastName = (e) => {
-    setLastname(e.target.value);
+    setLastName(e.target.value);
   };
 
   const handleSubmit = (e) => {
